@@ -33,6 +33,7 @@ Version:	1.0
 * About US CSS
 * Faqs CSS
 * Club Logo CSS
+* Hover Ripple CSS
 * 404 CSS
 * Contact CSS
 * Footer CSS
@@ -211,6 +212,9 @@ Version:	1.0
 	font-weight: 400;
 	text-transform: capitalize;
 	background: transparent;
+}
+.header .nav li .dropdown li a:hover{
+	padding-left: 30px;
 }
 .header .nav li .dropdown li i{
 	float:right;
@@ -2528,9 +2532,95 @@ width: 100%;
 	content: " >>";
 }
 
-
 /*=============================
 	End App Club Logo CSS
+===============================*/
+
+/*=============================
+	Hover Ripple CSS
+===============================*/
+/*@keyframes shake {
+	25% {
+		transform: rotate(calc(var(--angle) * -1));
+	}
+
+	50% {
+		transform: rotate(var(--angle));
+	}
+
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+html {
+	font: 100 1.5em sans-serif;
+}
+body {
+	padding: 2em 5em 0em 5em;
+}
+
+h1 {
+	font-weight: 100;
+}
+
+.display {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 0.1em;
+}
+
+.HOVER {
+	--width: 100%;
+	--time: 0.7s;
+	position: relative;
+	display: inline-block;
+	height: 1em;
+	padding: 1em;
+
+	color: white;
+	background: #222;
+	overflow: hidden;
+}
+
+.HOVER text {
+	position: relative;
+	z-index: 5;
+	transition: color var(--time);
+}
+
+.HOVER:hover text {
+	color: #222;
+}
+.HOVER span {
+	border-radius: 100%;
+	position: absolute;
+	display: block;
+	content: "";
+	z-index: 0;
+	width: 0;
+	height: 0;
+
+	background: #fff;
+	transform: translate(-50%, -50%);
+	transition: width var(--time), padding-top var(--time);
+}
+
+.HOVER:hover span {
+	width: calc(var(--width)*2.25);
+	padding-top: calc(var(--width)* 2.25);
+}
+
+
+
+.animated {
+	--angle: 5deg;
+	animation: shake 0.3s;
+}*/
+
+
+/*=============================
+	Hover Ripple CSS
 ===============================*/
 
 /*=============================
@@ -2630,7 +2720,7 @@ width: 100%;
 	text-align: left;
 	margin-top: 30px;
 	position: relative;
-	padding-left: 100px;
+	padding:30px 100px;
 }
 .contact .contact-info .icon {
 	position: absolute;
@@ -2806,6 +2896,9 @@ width: 100%;
 	line-height: 30px;
 	color: #fff;
 }
+.footer .list li a:hover{
+	padding-left: 10px;
+}
 .footer .list li a{
 	color:#fff;
 }
@@ -2820,12 +2913,15 @@ width: 100%;
 	color: #fff;
 	font-size: 15px;
 }
+.footer .useful-links ul li a:hover{
+	padding-left: 10px;
+}
 .footer .useful-links ul li i{
 	margin-right:10px;
 }
 .footer .single-news {
 	position: relative;
-	padding-left: 65px;
+	padding-left: 0px;
 	margin-bottom: 15px;
 }
 .footer .single-news:last-child{

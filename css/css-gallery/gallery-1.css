@@ -1,13 +1,6 @@
 /*	Gallery 1
 /*----------------------------------------------------*/
 
-/* Navbar Remove margin
- * -------------------------- */
- .navbar{
-    margin: 0px;
- }
-
-
 /* Gallery Item
  * -------------------------- */
  
@@ -78,7 +71,7 @@
 }
 
 .gallery-item .gallery-thumb .gallery-zoom:hover, .gallery-item .gallery-thumb .gallery-link:hover {
-    background-color: #e7390e;
+    background-color: #ef801a;
     color: #ffffff;
 }
 
@@ -138,7 +131,7 @@
 .filter {
     list-style: none;
     padding: 0;
-    margin: 60px 0 60px 0;
+    margin: 0 0 60px 0;
     text-align: center;
 }
 .filter li {
@@ -159,14 +152,11 @@
     font-weight: 700;
     font-size: 14px;
     color: #2c3e50;
-    padding: 10px;
 }
 .filter li a:hover,
 .filter li a:focus,
 .filter li a.active {
-    background-color: rgb(231, 57, 14);
-    color: #fff;
-    border-radius: 5px;
+    color: #ef801a;
     text-decoration: none;
 }
 
@@ -218,27 +208,8 @@
 /*----------------------------------------------------*/
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 360px) {
-/*    .filter{
-          position: -webkit-sticky;
-  position: sticky;
-    }*/
-    .filter li a:focus{
-        background-color: rgb(231, 57, 14);
-        color: #fff;
-        border-radius: 5px;
-    }
-	.filter li:before{
-        content: "";
-    }
-    .filter li a{
-        display: block;
-        margin: auto;
-        padding: 10px;
-    }
-/*    .filter li a:focus{
-        border-bottom: 1px solid red;
-    }*/
+@media only screen and (min-width : 768px) {
+	
 		
 	
 }
