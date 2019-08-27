@@ -149,7 +149,7 @@ Version:	1.0
 					nav:false,
 				},
 				1170: {
-					items:2,
+					items:4,
 				},
 			}
 		});	
