@@ -2456,6 +2456,61 @@ width: 100%;
 ===============================*/
 
 /*=============================
+	Faculty CSS
+===============================*/
+
+#teacher-profile{
+  margin-top: 50px;
+}
+.hvr-shadow{
+  transition: all .4s ease;
+  padding: 10px;
+  border-bottom: 1px dotted #d1d1d1;
+  margin: 30px 0px;
+}
+.box-shadow-fc{
+  background-color: #fff;
+  box-shadow: 0 0 8px 2px #d1d1d1!important;
+}
+.thm-profile-content .thm-profile-title {
+    font-weight: 700;
+    color: #0161b6;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: none !important;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1.4em;
+}
+.thm-profile-social i.fa {
+    color: #0161b6!important;
+    width: 18px;
+    margin-right: 5px;
+}
+.thm-profile-content .thm-profile-social li {
+    line-height: 30px;
+    font-size: 16px;
+    position: relative;
+}
+.thm-profile-content .thm-profile-social {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.thm-profile-content p {
+    margin-bottom: 19px!important;
+    font-size: 16px;
+}
+.thm-profile-img {
+    align-items: center;
+    margin-top: 30px;
+}
+#bg-primary{
+	margin: 50px 0px;
+}
+/*=============================
+	End Faculty CSS
+===============================*/
+/*=============================
 	Faqs CSS
 ===============================*/
 .faq .faq-content{
