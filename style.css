@@ -1342,7 +1342,7 @@ Version:	1.0
 .testimonials .single-testimonial img{
 	position:absolute;
 	left:50%;
-	margin-left:-37px;
+	margin-left:-60px;
 	top:-37px;
 	height:120px;
 	width:120px;
@@ -1753,14 +1753,17 @@ Version:	1.0
 	-moz-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.12);
 	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.12);
 	margin:5px;
+	min-height: 401px;
 }
+
 .blog .blog-head{
 	overflow:hidden;
 }
 .blog .blog-head:before{
 	z-index:35;
-	opacity:0;
-	visibility:hidden;
+	opacity:0.5;
+/*	visibility:hidden;*/
+	background:linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45));
 }
 .blog .single-blog:hover .blog-head:before{
 	opacity:0.5;
@@ -1768,6 +1771,8 @@ Version:	1.0
 }
 .blog .single-blog img{
 	width:100%;
+	background: #000;
+	opacity: 1;
 }
 .blog .single-blog:hover img{
 	transform:scale(1.2) rotate(5deg);
